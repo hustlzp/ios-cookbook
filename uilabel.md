@@ -2,7 +2,7 @@
 
 ###多行
 
-```swfit
+```swift
 label.numberOfLines = 0
 label.lineBreakMode = .ByWordWrapping
 ```
@@ -15,10 +15,10 @@ extension UILabel {
         if text == nil{
             return 0
         }
-        
+
         let rect = CGSize(width: bounds.width, height: CGFloat.max)
         let size = (text! as NSString).boundingRectWithSize(rect, options: [.UsesLineFragmentOrigin, .UsesFontLeading], attributes: [NSFontAttributeName: font], context: nil)
-        
+
         return Int(ceil(size.height / font.lineHeight))
     }
 }
@@ -30,7 +30,7 @@ extension UILabel {
 class AutoLayoutLabel: UILabel {
     override func layoutSubviews() {
         super.layoutSubviews()
-        
+
         if numberOfLines == 0 {
             preferredMaxLayoutWidth = bounds.width
         }

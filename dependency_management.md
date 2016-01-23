@@ -1,3 +1,4 @@
 # 依赖管理
 
-##CocoaPods
+* [CocoaPods](cocoapods.org)
+* [Carthage](https://github.com/Carthage/Carthage)

@@ -2,8 +2,15 @@
 
 Cookbook for iOS.
 
-定位：
+#定位
+
+类似[The Hitchhiker’s Guide to Python](http://docs.python-guide.org)。
+介于“博文类的深度论述”、“类awesome-ios资源列表”之间。
+
+#写作指南
 
 * Swift优先
 * iOS 7+
-* 不做博文类的深度论述，而是做更加轻量的tips、资源聚合
+* 表述简洁明了
+* 保持中立客观
+* 注明引用地址

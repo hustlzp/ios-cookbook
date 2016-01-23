@@ -16,7 +16,7 @@ UIGraphicsEndImageContext()
 ```swift
 func crop(rect: CGRect) -> UIImage {
     var rectTransform: CGAffineTransform
-    
+
     switch imageOrientation {
     case .Left:
         rectTransform = CGAffineTransformTranslate(CGAffineTransformMakeRotation(CGFloat(M_PI_2)), 0, -size.height)
@@ -27,7 +27,7 @@ func crop(rect: CGRect) -> UIImage {
     default:
         rectTransform = CGAffineTransformIdentity
     }
-    
+
     rectTransform = CGAffineTransformScale(rectTransform, self.scale, self.scale)
     let imageRef = CGImageCreateWithImageInRect(CGImage, CGRectApplyAffineTransform(rect, rectTransform))
     return UIImage(CGImage: imageRef!, scale: self.scale, orientation: imageOrientation)
