@@ -9,7 +9,3 @@ extension UIColor {
     }
 }
 ```
-
-##获取tintColor
-
-* view.tintColor
