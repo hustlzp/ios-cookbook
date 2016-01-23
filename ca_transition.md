@@ -42,3 +42,11 @@ transition.subtype = kCATransitionFromLeft
 UIApplication.sharedApplication().keyWindow?.layer.addAnimation(transition, forKey: kCATransition)
 dismissViewControllerAnimated(false, completion: nil)
 ```
+
+###CATransition结束时执行代码
+
+```swift
+animation.delegate = self
+```
+
+然后实现`animationDidStop:finished:`方法。
