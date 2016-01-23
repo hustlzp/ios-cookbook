@@ -9,6 +9,7 @@
 ```swift
 // push
 let transition = CATransition()
+
 transition.duration = 0.3
 transition.type = "oglFlip"
 transition.subtype = kCATransitionFromRight
@@ -17,6 +18,7 @@ navigationController?.pushViewController(ShareUserViewController(user: user), an
 
 // pop
 let transition = CATransition()
+
 transition.duration = 0.3
 transition.type = "oglFlip"
 transition.subtype = kCATransitionFromLeft
@@ -36,6 +38,7 @@ presentViewController(ShareUserViewController(user: user), animated: false, comp
 
 // dismiss
 let transition = CATransition()
+
 transition.duration = 0.3
 transition.type = "oglFlip"
 transition.subtype = kCATransitionFromLeft
