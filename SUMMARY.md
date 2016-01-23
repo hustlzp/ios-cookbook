@@ -6,4 +6,5 @@
 * [UIImage](uiimage.md)
 * [Project Structure](project_structure.md)
 * [依赖管理](dependency_management.md)
+   * CocoaPods
 
