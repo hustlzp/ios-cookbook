@@ -13,7 +13,7 @@
 * [Core Animation](core_animation.md)
    * [CATransition](ca_transition.md)
 * [Animation](animation.md)
-   * AutoLayout Animation
+   * [AutoLayout Animation](autolayout_animation.md)
    * [UIView Animation](uiview_animation.md)
 * Effect
    * [Gradient](gradient.md)
