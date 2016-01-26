@@ -20,4 +20,5 @@
 * Effect
    * [Gradient](gradient.md)
    * [Blur](blur.md)
+* Foundation
 
