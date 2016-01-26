@@ -18,4 +18,5 @@
 * Effect
    * [Gradient](gradient.md)
    * [Blur](blur.md)
+* Swift Tips
 
