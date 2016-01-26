@@ -14,4 +14,5 @@
    * [CATransition](ca_transition.md)
 * [Animation](animation.md)
 * Effect
+   * Gradient
 
