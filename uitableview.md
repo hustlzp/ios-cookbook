@@ -2,10 +2,11 @@
 
 ###在Cell之间添加间隔
 
-**Section方法**：
+**Section法**：
 
 
 ```swift
+// 一定要设置style为Grouped，否则section会置顶
 let tableView = UITableView(frame: CGRect.zero, style: .Grouped)
 
 func numberOfSectionsInTableView(tableView: UITableView) -> Int {
