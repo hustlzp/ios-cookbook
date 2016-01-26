@@ -2,7 +2,11 @@
 
 ###自适应高度
 
+`tableView.rowHeight`属性的默认值为`tableView.rowHeight = UITableViewAutomaticDimension`，代码中只需设置`estimatedRowHeight`即可实现基于AutoLayout的自适应高度：
 
+```swift
+tableView.estimatedRowHeight = 110
+```
 
 ###调节seperator样式
 
