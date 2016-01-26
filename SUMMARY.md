@@ -15,7 +15,7 @@
    * [UIColor](uicolor.md)
    * [UITextField](uitextfield.md)
    * [UITableView](uitableview.md)
-   * UIViewController
+   * [UIViewController](uiviewcontroller.md)
 * [Core Animation](core_animation.md)
    * [CATransition](ca_transition.md)
 * [Animation](animation.md)
