@@ -11,4 +11,5 @@
    * [UIColor](uicolor.md)
 * [Core Animation](core_animation.md)
    * [CATransition](ca_transition.md)
+* Animation
 
