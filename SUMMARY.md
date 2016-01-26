@@ -13,6 +13,7 @@
 * [Core Animation](core_animation.md)
    * [CATransition](ca_transition.md)
 * [Animation](animation.md)
+   * UIView Animation
 * Effect
    * [Gradient](gradient.md)
    * [Blur](blur.md)
