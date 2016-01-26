@@ -20,7 +20,7 @@
 * [Animation](animation.md)
    * [AutoLayout Animation](autolayout_animation.md)
    * [UIView Animation](uiview_animation.md)
-* Effect
+* [Effect](effect.md)
    * [Gradient](gradient.md)
    * [Blur](blur.md)
 
