@@ -14,6 +14,7 @@
    * [CATransition](ca_transition.md)
 * [Animation](animation.md)
    * UIView Animation
+   * AutoLayout Animation
 * Effect
    * [Gradient](gradient.md)
    * [Blur](blur.md)
