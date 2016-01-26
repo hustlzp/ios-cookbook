@@ -1,5 +1,14 @@
 # UITableView
 
+###自适应高度
+
+
+
+###调节seperator样式
+
+* separatorColor
+* separatorInset
+
 ###在Cell之间添加间隔
 
 **Section法**：
