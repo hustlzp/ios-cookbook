@@ -15,5 +15,5 @@
 * [Animation](animation.md)
 * Effect
    * Gradient
-   * Blur
+   * [Blur](blur.md)
 
