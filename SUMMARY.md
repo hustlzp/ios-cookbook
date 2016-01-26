@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Swift代码风格](swift_code_style.md)
+* Swift Tips
 * [Project Structure](project_structure.md)
 * [依赖管理](dependency_management.md)
    * [CocoaPods](cocoapods.md)
@@ -18,5 +19,4 @@
 * Effect
    * [Gradient](gradient.md)
    * [Blur](blur.md)
-* Swift Tips
 
