@@ -31,3 +31,10 @@ class DeletionDetectableTextField: UITextField {
     
 }
 ```
+
+###placeholder样式
+
+```swift
+let str = NSAttributedString(string: "Text", attributes: [NSForegroundColorAttributeName:UIColor.redColor()])
+myTextField.attributedPlaceholder = str
+```
