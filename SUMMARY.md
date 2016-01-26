@@ -8,6 +8,7 @@
 * [依赖管理](dependency_management.md)
    * [CocoaPods](cocoapods.md)
 * Foundation
+   * String
 * [UIKit](uikit.md)
    * [UILabel](uilabel.md)
    * [UIImage](uiimage.md)
