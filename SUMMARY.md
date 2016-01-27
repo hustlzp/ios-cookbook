@@ -11,6 +11,7 @@
    * [CocoaPods](cocoapods.md)
 * [Foundation](foundation.md)
    * [String](string.md)
+   * AttributedString
 * [UIKit](uikit.md)
    * [UILabel](uilabel.md)
    * [UIImage](uiimage.md)
