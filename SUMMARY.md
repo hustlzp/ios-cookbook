@@ -24,5 +24,5 @@
 * [Effect](effect.md)
    * [Gradient](gradient.md)
    * [Blur](blur.md)
-* 第三方库
+* [第三方库](third_party_libs.md)
 
