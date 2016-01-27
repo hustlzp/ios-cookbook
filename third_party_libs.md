@@ -3,3 +3,4 @@
 ##UI
 
 * [HMSegmentedControl](https://github.com/HeshamMegid/HMSegmentedControl)
+* [MXSegmentedPager](https://github.com/maxep/MXSegmentedPager)
