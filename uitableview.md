@@ -50,3 +50,11 @@ func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> U
 ```
 
 [出处](http://stackoverflow.com/a/21901250/1954737)
+
+###判断是否已注册cell class
+
+```
+if tableView.dequeueReusableCellWithIdentifier(cellIdentifier) == nil {
+    tableView.registerClass(QuestionWithAnswerTableViewCell.self, forCellReuseIdentifier: cellIdentifier)
+}
+```
