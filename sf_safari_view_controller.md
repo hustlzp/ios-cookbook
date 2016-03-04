@@ -2,7 +2,7 @@
 
 Available: iOS9+
 
-在应用内部打开Safari，体验更完整：
+在应用内部打开Safari。
 
 
 ```swift
