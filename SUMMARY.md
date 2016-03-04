@@ -20,7 +20,7 @@
    * [UITableView](uitableview.md)
    * [UIViewController](uiviewcontroller.md)
        * [SFSafariViewController](sf_safari_view_controller.md)
-       * MFMailComposeViewController
+       * [MFMailComposeViewController](mf_mail_compose_view_controller.md)
    * [UIKeyboard](uikeyboard.md)
 * [Core Animation](core_animation.md)
    * [CATransition](ca_transition.md)
