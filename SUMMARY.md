@@ -19,7 +19,7 @@
    * [UITextField](uitextfield.md)
    * [UITableView](uitableview.md)
    * [UIViewController](uiviewcontroller.md)
-       * SFSafariViewController
+       * [SFSafariViewController](sf_safari_view_controller.md)
    * [UIKeyboard](uikeyboard.md)
 * [Core Animation](core_animation.md)
    * [CATransition](ca_transition.md)
