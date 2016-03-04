@@ -6,6 +6,8 @@ Available: iOS9+
 
 
 ```swift
+import SafariService
+
 if #available(iOS 9.0, *) {
     let controller = SFSafariViewController(URL: NSURL(string: "http://www.douban.com")!, entersReaderIfAvailable: true)
     self.presentViewController(controller, animated: true, completion: nil)
