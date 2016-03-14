@@ -22,6 +22,7 @@
        * [SFSafariViewController](sf_safari_view_controller.md)
        * [MFMailComposeViewController](mf_mail_compose_view_controller.md)
    * [UIKeyboard](uikeyboard.md)
+   * UIImageView
 * [Core Animation](core_animation.md)
    * [CATransition](ca_transition.md)
 * [Animation](animation.md)
