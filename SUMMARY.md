@@ -32,6 +32,6 @@
    * [Gradient](gradient.md)
    * [Blur](blur.md)
 * [性能](performance.md)
-   * Instruments
+   * [Instruments](instruments.md)
 * [第三方库](third_party_libs.md)
 
