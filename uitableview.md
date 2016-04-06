@@ -8,6 +8,18 @@
 tableView.estimatedRowHeight = 110
 ```
 
+存在一个问题，如果cell的高度波动比较大，那么在`reloadData`的时候可能出现table的contentOffset跳变，解决方法是：
+
+```swift
+func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    let question = questions[indexPath.row]
+
+    return tableView.fd_heightForCellWithIdentifier(cellIdentifier, cacheByKey: question.objectId, configuration: { (cell) in
+        (cell as! QuestionWithAnswerTableViewCell).update(question)
+    })
+}
+```
+
 ###调节seperator样式
 
 * separatorColor
