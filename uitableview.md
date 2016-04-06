@@ -20,6 +20,8 @@ func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPat
 }
 ```
 
+见[reloadData() of UITableView with Dynamic cell heights causes jumpy scrolling](http://stackoverflow.com/a/34323679/1954737)。
+
 ###调节seperator样式
 
 * separatorColor
